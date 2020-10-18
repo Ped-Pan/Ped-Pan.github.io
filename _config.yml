@@ -1,0 +1,26 @@
+title: Ped Pan
+description: >-
+  A non invasive endoscopic followup of the entire gastrointestinal tract in pediatric Crohn's disease: the advent of pan-enteric capsule endoscopy.
+baseurl: "" 
+url: "https://ped-pan.github.io"
+
+homepage:
+  show_call_box: true
+logo:
+  mobile: "images/logo/logo-mobile.svg"
+  desktop: "images/logo/logo.svg"
+  desktop_height: "36px"
+footer:
+  copyright_text: '© 2020'
+
+collections:
+  team:
+    output: true
+
+sass:
+  indentWidth: 4
+  style: compact
+  precision: 10
+
+plugins:
+  - jekyll-environment-variables

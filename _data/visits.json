@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Screening visit.",
+    "image": "images/visits/1.svg",
+    "url": "https:google.com"
+  },
+  {
+    "title": "26-weeks visit.",
+    "image": "images/visits/2.svg",
+    "url": "https:google.com"
+  },
+  {
+    "title": "52-weeks visit.",
+    "image": "images/visits/3.svg",
+    "url": "https:google.com"
+  }
+]
