@@ -24,16 +24,31 @@ bodyClass: page-home
     <div class="row justify-content-center">
 
       {% for visit in site.data.visits %}
+      {% if visit.title2 %}
+        <div class="col-12 col-md-6 col-lg-4 mb-2">
+          <div class="visit">
+            {% if visit.image %}
+            <div class="visit-image"><img alt="{{ visit.title }} logo" src="{{ visit.image | relative_url }}" /></div>
+            {% endif %}
+            <a href={{visit.url}} target="_blank">
+            <h2 class="visit-title">{{ visit.title }}</h2>
+            </a>
+            <a href={{visit.url2}} target="_blank">
+              <h2 class="visit-title">{{ visit.title2 }}</h2>
+              </a>
+          </div>
+      {% else %}
       <a href={{visit.url}} target="_blank">
-      <div class="col-12 col-md-6 col-lg-4 mb-2">
-        <div class="visit">
-          {% if visit.image %}
-          <div class="visit-image"><img alt="{{ visit.title }} logo" src="{{ visit.image | relative_url }}" /></div>
-          {% endif %}
-          <h2 class="visit-title">{{ visit.title }}</h2>
-          <div class="visit-content">{{ visit.description }}</div>
-        </div>
-      </a>
+        <div class="col-12 col-md-6 col-lg-4 mb-2">
+          <div class="visit">
+            {% if visit.image %}
+            <div class="visit-image"><img alt="{{ visit.title }} logo" src="{{ visit.image | relative_url }}" /></div>
+            {% endif %}
+            <h2 class="visit-title">{{ visit.title }}</h2>
+            <div class="visit-content">{{ visit.description }}</div>
+          </div>
+        </a>  
+      {% endif %}
       </div>
       {% endfor %}
 
