@@ -15,7 +15,7 @@ footer:
 
 collections:
   team:
-    output: true
+    output: false
 
 sass:
   indentWidth: 4
