@@ -1,6 +1,6 @@
 ---
 title: 'Chiara Spizzichino'
-image: 'images/team/user.svg'
+image: 'images/team/chiara-spizzichino.jpg'
 jobtitle: 'Project Manager'
 promoted: true
 weight: 4

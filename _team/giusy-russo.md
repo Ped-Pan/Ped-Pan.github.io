@@ -1,7 +1,7 @@
 ---
 title: 'Giusy Russo'
 image: 'images/team/giusy-russo.jpg'
-jobtitle: '-'
+jobtitle: 'Sub-investigator'
 promoted: true
 email: 'giusy.russo@uniroma1.it'
 weight: 2
