@@ -2,16 +2,18 @@
   {
     "title": "Screening visit.",
     "image": "images/visits/1.svg",
-    "url": "https:google.com"
+    "url": "https://forms.gle/rzjJJaBQASkRLvre6",
+    "title2": "Entry visit.",
+    "url2": "https://forms.gle/rkaiGFene4sgmToL6"
   },
   {
     "title": "26-weeks visit.",
     "image": "images/visits/2.svg",
-    "url": "https:google.com"
+    "url": "https://forms.gle/PhFq2BQv8Hpao2Yj6"
   },
   {
     "title": "52-weeks visit.",
     "image": "images/visits/3.svg",
-    "url": "https:google.com"
+    "url": "https://forms.gle/v1w7NqturxoRSKwQ9"
   }
 ]
