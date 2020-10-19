@@ -17,13 +17,17 @@ bodyClass: page-team-list
                 <div class="team-meta">
                     <h2 class="team-name">{{ team.title }}</h2>
                     <p class="team-description">{{ team.jobtitle }}</p>
-                    {% if team.linkedinurl %}
-                    <a target="_blank" href="{{ team.linkedinurl }}">LinkedIn</a>
-                    {% endif %}
                 </div>
-                <div class="team-content">{{ team.content | truncate: 120 }}</div>
+                <div class="team-content">{{ team.content }}</div>
+                <div class="call-box-top">
+                <div class="call-email"><strong>Email: </strong>
+                    <a href="mailto:{{ team.email }}">
+                      {{ team.email }}
+                    </a>
+                  </div>
+                </div>
             </div>
-        </div>
+            </div>
         {% endfor %}
     </div>
     <div class="row pt-6 pb-6">
