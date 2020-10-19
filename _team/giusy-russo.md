@@ -1,6 +1,6 @@
 ---
 title: 'Giusy Russo'
-image: 
+image: 'images/team/giusy-russo.jpg'
 jobtitle: '-'
 promoted: true
 email: 'giusy.russo@uniroma1.it'
