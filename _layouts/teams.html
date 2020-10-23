@@ -20,11 +20,13 @@ bodyClass: page-team-list
                 </div>
                 <div class="team-content">{{ team.content }}</div>
                 <div class="call-box-top">
+                {% if team.email %}
                 <div class="call-email"><strong>Email: </strong>
                     <a href="mailto:{{ team.email }}">
                       {{ team.email }}
                     </a>
                   </div>
+                {% endif%}
                 </div>
             </div>
             </div>
