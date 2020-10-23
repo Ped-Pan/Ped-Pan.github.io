@@ -43,7 +43,9 @@ bodyClass: page-team-list
                 </div>
                 {% endif %}
                 <div class="team-meta">
+                    <a href="mailto:{{ team.email }}">
                     <h2 class="team-name">{{ team.title }}</h2>
+                </a>
                     <p class="team-description">{{ team.jobtitle }}</p>
                 </div>
             </div>

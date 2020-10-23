@@ -2,7 +2,6 @@
 title: 'Chiara Spizzichino'
 image: 'images/team/chiara-spizzichino.jpg'
 jobtitle: 'Project Manager'
-promoted: true
-weight: 4
+weight: 2
 email: 'chiaraspizzichino@gmail.com'
 ---

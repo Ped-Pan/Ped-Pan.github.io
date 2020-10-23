@@ -2,7 +2,6 @@
 title: 'Giulia Dakli'
 image: 'images/team/giulia-dakli.jpg'
 jobtitle: 'Project Manager'
-promoted: true
-weight: 3
+weight: 1
 email: 'giulia.dakli@gmail.com'
 ---

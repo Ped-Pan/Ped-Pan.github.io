@@ -2,6 +2,6 @@
 title: 'Luigi Russo'
 image: 'images/team/user.svg'
 jobtitle: 'Developer'
-promoted: true
-weight: 5
+email: 'russo.1699981@studenti.uniroma1.it'
+weight: 3
 ---
